@@ -11,7 +11,6 @@ author:
     name:         BeiYuu
 description:      "Vigoals的博客"
 author_info:      <a href="http://vigoals.github.com">Vigoals</a>
-baseurl:          http://vigoals.github.com/
 
 copyright:
     - Design by <a href="http://vigoals.github.com" title="Vigoals" target="_blank">Vigoals</a> &copy; Copyright 2012
