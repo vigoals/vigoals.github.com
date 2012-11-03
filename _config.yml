@@ -1,16 +1,1 @@
-auto:	          true
-
-markdown:         rdiscount
-pygments:         true
-paginate:         6
-permalink:        /:title
-
-title:            Vigoals的博客
-url:              http://vigoals.github.com
-author:
-    name:         BeiYuu
-description:      "Vigoals的博客"
-author_info:      <a href="http://vigoals.github.com">Vigoals</a>
-
-copyright:
-    - Design by <a href="http://vigoals.github.com" title="Vigoals" target="_blank">Vigoals</a> &copy; Copyright 2012
+baseurl:http://vigoals.github.com/
