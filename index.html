@@ -5,7 +5,7 @@ title: Vigoals的博客
 <ul>
 {% for post in site.posts %}
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a> <br />
+		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <br />
 		<p>{{ post.content }}</p>
 	</li>
 {% endfor %}

@@ -5,7 +5,7 @@
 
 <head>
 <meta charset="utf-8" />
-<link rel="stylesheet" type="text/css" href="/css/default.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.css" media="screen"/>
 <title>{{ page.title }}</title>
 </head>
 
@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="navigation">
-			<a href="{{ site.baseurl }}">首页</a>
+			<a href="{{ site.url }}">首页</a>
 			<div class="clearer"><span></span></div>
 		</div>
 
@@ -29,7 +29,6 @@
 	<div class="main">
 		
 		<div class="content">
-			<p>{{ site.url }}</p>
 			{{ content }}
 		</div>
 
@@ -43,7 +42,7 @@
 
 </div>
 
-<div class="footer">&copy; 2012 <a href="{{ site.baseurl }}">Vigoals的博客</a>
+<div class="footer">&copy; 2012 <a href="{{ site.url }}">Vigoals的博客</a>
 </div>
 
 </body>
