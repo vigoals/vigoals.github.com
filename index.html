@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Vigoal的博客
+title: Vigoals的博客
 ---
-<body>
-	{% for post in site.posts %}
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	{% endfor %}
-</body>
-
+<ul>
+{% for post in site.posts %}
+	<li>
+		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> <br />
+		<p>{{ post.content }}</p>
+	</li>
+{% endfor %}
+</ul>
