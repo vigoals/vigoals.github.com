@@ -34,6 +34,9 @@ p,cite,code,ul {
 	font-size: 1.2em;
 	padding-bottom: 1.2em;
 }
+p{
+	text-indent: 2.4em;
+}
 h1 {
 	font-size: 1.4em;
 	margin-bottom: 4px;
