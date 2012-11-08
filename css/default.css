@@ -38,7 +38,7 @@ p{
 	text-indent: 2.4em;
 }
 h1 {
-	font-size: 1.4em;
+	font-size: 2em;
 	margin-bottom: 4px;
 }
 code {
@@ -62,6 +62,12 @@ cite {
 h1,h2,h3 {
 	color: #06C;
 	padding-top: 6px;
+}
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.4em;
 }
 /* misc */
 .clearer {
@@ -147,6 +153,9 @@ h1,h2,h3 {
 	background: url(/img/nav_li.gif) no-repeat;
 }
 
+.content a{
+	font-size: 2em;
+}
 /* content */
 .content {
 	float: left;
