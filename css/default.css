@@ -156,6 +156,11 @@ h3{
 .content a{
 	font-size: 2em;
 }
+
+.content a.expansion{
+	font-size: 1.2em;
+}
+
 /* content */
 .content {
 	float: left;
