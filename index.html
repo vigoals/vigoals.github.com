@@ -5,6 +5,7 @@ title: Vigoals的博客
 <ul>
 <script src="/js/expansion.js"></script>
 {% for post in site.posts %}
+	{% if post.tag == 'blog' %}
 	<li>
 		<a href="{{ post.url }}">{{ post.title }}</a> <br />
 		<p><div name="{{ post.id }}">{{ post.content }}</div></p>
@@ -12,5 +13,6 @@ title: Vigoals的博客
 			expansion("{{ post.id }}")
 		</script>
 	</li>
+	{% endif %}
 {% endfor %}
 </ul>
